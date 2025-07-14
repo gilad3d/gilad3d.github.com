@@ -1,0 +1,50 @@
+---
+layout: page
+permalink: /products/
+---
+
+<style>
+body, html {
+  direction: rtl;
+  text-align: right;
+}
+.product-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 2px 2px 8px #eee;
+  text-align: right;
+  background: #fff;
+}
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+.product-price {
+  font-weight: bold;
+  color: #2a7;
+  font-size: 1.2em;
+}
+</style>
+
+<h1>קטלוג מוצרים</h1>
+<div class="product-catalog">
+  {% for product in site.data.products %}
+    <div class="product-item">
+      <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image" />
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.description }}</p>
+      <p class="product-price">{{ product.price }}</p>
+    </div>
+  {% endfor %}
+</div>
