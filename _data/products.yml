@@ -1,12 +1,25 @@
-- name: Product 1
-  image: /assets/images/product1.jpg
-  price: $19.99
-  description: "A great product for your needs."
-- name: Product 2
-  image: /assets/images/product2.jpg
-  price: $29.99
-  description: "Another fantastic item."
-- name: Product 3
-  image: /assets/images/product3.jpg
-  price: $39.99
-  description: "Top quality and value."
+
+- name:  ספירלה פידג'ט
+  image: https://media.printables.com/media/prints/1201199/images/9022078_1528e7db-92cf-427a-b93b-679704cd5a09_7072bbf3-e7fc-46f6-9a42-0f0ebba33ebb/thumbs/inside/1600x1200/jpeg/large_display_img_8444_1201199.webp
+  price: ₪14.00
+  description: ספירלת פידג'ט – כי לילדים בטח אין מספיק דרכים להעסיק את הידיים. לסובב, לסובב, ושוב לסובב. כיף בלי סוף (ואולי קצת שקט להורים).
+- name: Articulated Dragon
+  image: https://media.printables.com/media/prints/843199/images/6491511_217834e9-a087-4ca4-abae-d372432f2da5_d31eeab1-067f-4473-b391-84bebe09296e/thumbs/inside/1600x1200/jpg/dsc_0114.webp
+  price: $25.00
+  description: "Flexible articulated dragon, a favorite among 3D print enthusiasts. Photo: Printables user, CC BY."
+- name: Geometric Planter
+  image: https://media.printables.com/media/prints/11098/images/112991_1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d/thumbs/cover/800x800/geometric-planter.jpg
+  price: $12.00
+  description: "Modern geometric planter for succulents and small plants. Photo: Printables user, CC BY."
+- name: Phone Stand
+  image: https://media.printables.com/media/prints/10047/images/101010_7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d/thumbs/cover/800x800/phone-stand.jpg
+  price: $8.00
+  description: "Handy 3D printed phone stand for desk or nightstand. Photo: Printables user, CC BY."
+- name: Tool Holder
+  image: https://media.printables.com/media/prints/10048/images/101011_3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f/thumbs/cover/800x800/tool-holder.jpg
+  price: $10.00
+  description: "Organize your workspace with this 3D printed tool holder. Photo: Printables user, CC BY."
+- name: Miniature Figurine
+  image: https://media.printables.com/media/prints/10049/images/101012_5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b/thumbs/cover/800x800/miniature-figurine.jpg
+  price: $18.00
+  description: "Detailed 3D printed miniature figurine, great for collections. Photo: Printables user, CC BY."
