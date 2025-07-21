@@ -4,5 +4,6 @@ image: https://media.printables.com/media/prints/1138614/images/8591534_d31e191d
 price: ₪12.00
 description: "Flexible articulated dragon, a favorite among 3D print enthusiasts. Photo: Printables user, CC BY."
 permalink: /products/flexible-snake/
+buylink: https://tinyurl.com/gilad3d-snake
 layout: product
 ---

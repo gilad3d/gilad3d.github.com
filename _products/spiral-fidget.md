@@ -4,5 +4,6 @@ image: https://media.printables.com/media/prints/1201199/images/9022078_1528e7db
 price: ₪14.00
 description: ספירלת פידג'ט – כי לילדים בטח אין מספיק דרכים להעסיק את הידיים. לסובב, לסובב, ושוב לסובב. כיף בלי סוף (ואולי קצת שקט להורים).
 permalink: /products/spiral-fidget/
+buylink: https://tinyurl.com/gilad3d-spiral
 layout: product
 ---
