@@ -40,11 +40,14 @@ body, html {
 <h1>קטלוג מוצרים</h1>
 <div class="product-catalog">
   {% for product in site.data.products %}
-    <div class="product-item">
-      <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image" />
-      <h2>{{ product.name }}</h2>
-      <p>{{ product.description }}</p>
-      <p class="product-price">{{ product.price }}</p>
-    </div>
+    <a href="/products/{{ product.slug }}/" style="text-decoration:none;color:inherit;">
+      <div class="product-item" style="cursor:pointer;">
+        <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image" />
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.description }}</p>
+        <p class="product-price">{{ product.price }}</p>
+      </div>
+    </a>
   {% endfor %}
 </div>
+
